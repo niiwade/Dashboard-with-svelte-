@@ -2,6 +2,21 @@
 @import 'variables.scss';
 @import 'mixins.scss';
 
-body{
-   
+html{
+    font-size: 16px;
 }
+
+body{
+    background-color: $background-white;
+    font-family: $main-font;
+}
+
+.wrap{
+    display: flex;
+
+    .side-nav{
+         width: 110px;
+         border-right: 2px solid $lighter-grey;
+    }
+}
+
