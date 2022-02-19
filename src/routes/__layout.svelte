@@ -1,5 +1,6 @@
 <script>
-	import '../app.css';
+	import '../css/main.css';
+	import '../css/tailwind.css';
 </script>
 
 <main>
