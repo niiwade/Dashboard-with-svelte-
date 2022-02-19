@@ -1,2 +1,7 @@
-<h1 class="text-blue-600 text-4xl">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="wrap">
+	<div class="nav-side">
+		<div class="logo">
+			<img alt="main logo" src="src/assests/logo.png" />
+		</div>
+	</div>
+</div>

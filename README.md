@@ -61,4 +61,4 @@ content: ['src/**/*.{html,css,js,jsx,ts,tsx,svelte}'],
 
 In your layout.svelte import the tailwind and the complied main.css file 
 
-and boom you can start writng your custom styles in the main.scss file
+and boom you can start writng your custom styles in the main.scss file also dont forget to import your variables and your mixins file into the main.scss
