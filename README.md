@@ -38,3 +38,27 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+
+To add sass to your already existing svelte + tailwind project to help customise your website
+
+First of all create a folder in the src named css and create these files respectively
+- main.scss
+- _variables.scss
+- _mixins.scss
+
+add the tailwind.css inside the css folder and add the tailwind classes
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+dont forget to add a watch script in your package.json
+"watch-sass": "sass -w src/css/main.scss src/css/main.css"
+
+In your tailwind config file dont forget to add the content and also to purge your site
+purge: ['./src/**/*.{html,js,svelte,ts}'],
+content: ['src/**/*.{html,css,js,jsx,ts,tsx,svelte}'],
+
+In your layout.svelte import the tailwind and the complied main.css file 
+
+and boom you can start writng your custom styles in the main.scss file
