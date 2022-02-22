@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #06080ae7;
   font-family: "Kumbh Sans", sans-serif;
 }
 
@@ -12,8 +12,30 @@ body {
   display: flex;
 }
 .wrap .side-nav {
-  width: 100px;
+  width: 110px;
   border-right: 2px solid #d4d4d4;
+}
+.wrap .side-nav .logo {
+  margin-bottom: 6em;
+  padding: 1em 0;
+  padding-left: 0.2em;
+  background-color: #f7ebeb;
+}
+.wrap .side-nav .logo img {
+  height: 1em;
+  margin: 0 auto;
+}
+.wrap .menu ul li {
+  margin-bottom: 3.6em;
+}
+.wrap .menu ul li a {
+  display: block;
+  position: relative;
+}
+.wrap .menu ul li a img {
+  height: 1.7em;
+  margin: 0 auto;
+  filter: grayscale(1);
 }
 
 /*# sourceMappingURL=main.css.map */
