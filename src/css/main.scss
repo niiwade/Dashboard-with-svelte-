@@ -20,9 +20,9 @@ body{
 
          .logo{
             margin-bottom: 6em;
-            padding: 1em 0;
+            padding: 0.5em 0;
            padding-left: 0.2em;
-           background-color: $background-white;
+           background-color: #fff;
     
     
         img{
@@ -49,6 +49,28 @@ body{
                          filter: grayscale(1);
                      }
                  }
+            }
+        }
+
+        .stroke{
+            height: 1.7em;
+            width: 4px;
+            border-radius: 6px;
+            background-color: $dark-blue;
+            position: absolute;
+            right: 0%;
+            top: 0%;
+            overflow: hidden;
+
+            .half{
+                height: 1em;
+            width: 3px;
+            border-radius: 6px;
+            background-color: $normal-green;
+            position: absolute;
+            right: 0%;
+            top: 0%;
+            overflow: hidden;
             }
         }
     }
