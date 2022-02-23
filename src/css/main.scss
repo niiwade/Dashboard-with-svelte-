@@ -32,61 +32,86 @@ body{
         }
     
         }
+
+        .menu{
+            ul{
+                li{
+                     margin-bottom: 4em;
+                     
+                     a{
+                         display: block;
+                         position: relative;
+    
+                         img{
+                             height: 1.5em;
+                             margin: 0 auto;
+                             filter: grayscale(1);
+                         }
+    
+                         .stroke{
+                            height: 1.7em;
+                            width: 3px;
+                            border-radius: 6px;
+                            background-color: $dark-blue;
+                            position: absolute;
+                            right: 0%;
+                            top: 0%;
+                            overflow: hidden;
+                            display: none;
+                
+                            .half{
+                            display: block;
+                            height: 50%;
+                            width: inherit;
+                            background-color: $normal-green;
+                            position: absolute;
+                            bottom: 0;
+                            }
+                        }
+                     }
+    
+                     &:hover{
+    
+                        img{
+                            filter: grayscale(0);
+                        }
+    
+                     }
+                 
+                     &.active{
+                         a{
+                             img{
+                                 filter: grayscale(0);
+                             }
+    
+                             .stroke{
+                                 display: block;
+                             }
+                         }
+                     }
+                }
+            }
+    
+           
+        }
     }
 
-    .menu{
-        ul{
-            li{
-                 margin-bottom: 3.6em;
-                 
-                 a{
-                     display: block;
-                     position: relative;
+    .content{
 
-                     img{
-                         height: 1.7em;
-                         margin: 0 auto;
-                         filter: grayscale(1);
-                     }
+        width: 100%;
 
-                     .stroke{
-                        height: 1.7em;
-                        width: 3px;
-                        border-radius: 6px;
-                        background-color: $dark-blue;
-                        position: absolute;
-                        right: 0%;
-                        top: 0%;
-                        overflow: hidden;
-                        display: none;
-            
-                        .half{
-                        display: block;
-                        height: 50%;
-                        width: inherit;
-                        background-color: $normal-green;
-                        position: absolute;
-                        bottom: 0;
-                        }
-                    }
-                 }
-             
-                 &.active{
-                     a{
-                         img{
-                             filter: grayscale(0  )
-                         }
-
-                         .stroke{
-                             display: block;
-                         }
-                     }
-                 }
-            }
+        .main{
+            height: 100vh;
+            background-color: $dark-blue;
         }
 
-       
+        .profile{
+            height: 100vh ;
+            background-color: aqua;
+        }
     }
+
+ 
 
 }
 

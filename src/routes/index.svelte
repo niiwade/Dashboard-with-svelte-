@@ -30,5 +30,14 @@
 		</nav>
 	</div>
 
-	<div class="content" />
+	<div class="content">
+		<div class="grid grid-cols-12">
+			<div class="col-span-12 xl:col-span-12 2xl:col-span-9">
+				<div class="main" />
+			</div>
+			<div class="col-span-12 2xl:col-span-3">
+				<div class="profile" />
+			</div>
+		</div>
+	</div>
 </div>

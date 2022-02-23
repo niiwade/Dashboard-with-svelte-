@@ -25,19 +25,19 @@ body {
   height: 1em;
   margin: 0 auto;
 }
-.wrap .menu ul li {
-  margin-bottom: 3.6em;
+.wrap .side-nav .menu ul li {
+  margin-bottom: 4em;
 }
-.wrap .menu ul li a {
+.wrap .side-nav .menu ul li a {
   display: block;
   position: relative;
 }
-.wrap .menu ul li a img {
-  height: 1.7em;
+.wrap .side-nav .menu ul li a img {
+  height: 1.5em;
   margin: 0 auto;
   filter: grayscale(1);
 }
-.wrap .menu ul li a .stroke {
+.wrap .side-nav .menu ul li a .stroke {
   height: 1.7em;
   width: 3px;
   border-radius: 6px;
@@ -48,7 +48,7 @@ body {
   overflow: hidden;
   display: none;
 }
-.wrap .menu ul li a .stroke .half {
+.wrap .side-nav .menu ul li a .stroke .half {
   display: block;
   height: 50%;
   width: inherit;
@@ -56,11 +56,25 @@ body {
   position: absolute;
   bottom: 0;
 }
-.wrap .menu ul li.active a img {
+.wrap .side-nav .menu ul li:hover img {
   filter: grayscale(0);
 }
-.wrap .menu ul li.active a .stroke {
+.wrap .side-nav .menu ul li.active a img {
+  filter: grayscale(0);
+}
+.wrap .side-nav .menu ul li.active a .stroke {
   display: block;
+}
+.wrap .content {
+  width: 100%;
+}
+.wrap .content .main {
+  height: 100vh;
+  background-color: #013179;
+}
+.wrap .content .profile {
+  height: 100vh;
+  background-color: aqua;
 }
 
 /*# sourceMappingURL=main.css.map */
