@@ -37,25 +37,30 @@ body {
   margin: 0 auto;
   filter: grayscale(1);
 }
-.wrap .menu .stroke {
+.wrap .menu ul li a .stroke {
   height: 1.7em;
-  width: 4px;
+  width: 3px;
   border-radius: 6px;
   background-color: #013179;
   position: absolute;
   right: 0%;
   top: 0%;
   overflow: hidden;
+  display: none;
 }
-.wrap .menu .stroke .half {
-  height: 1em;
-  width: 4px;
-  border-radius: 6px;
+.wrap .menu ul li a .stroke .half {
+  display: block;
+  height: 50%;
+  width: inherit;
   background-color: #0ec25fcc;
   position: absolute;
-  right: 0%;
-  top: 0%;
-  overflow: hidden;
+  bottom: 0;
+}
+.wrap .menu ul li.active a img {
+  filter: grayscale(0);
+}
+.wrap .menu ul li.active a .stroke {
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */

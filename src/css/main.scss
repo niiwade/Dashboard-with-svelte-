@@ -48,31 +48,44 @@ body{
                          margin: 0 auto;
                          filter: grayscale(1);
                      }
+
+                     .stroke{
+                        height: 1.7em;
+                        width: 3px;
+                        border-radius: 6px;
+                        background-color: $dark-blue;
+                        position: absolute;
+                        right: 0%;
+                        top: 0%;
+                        overflow: hidden;
+                        display: none;
+            
+                        .half{
+                        display: block;
+                        height: 50%;
+                        width: inherit;
+                        background-color: $normal-green;
+                        position: absolute;
+                        bottom: 0;
+                        }
+                    }
+                 }
+             
+                 &.active{
+                     a{
+                         img{
+                             filter: grayscale(0  )
+                         }
+
+                         .stroke{
+                             display: block;
+                         }
+                     }
                  }
             }
         }
 
-        .stroke{
-            height: 1.7em;
-            width: 4px;
-            border-radius: 6px;
-            background-color: $dark-blue;
-            position: absolute;
-            right: 0%;
-            top: 0%;
-            overflow: hidden;
-
-            .half{
-                height: 1em;
-            width: 3px;
-            border-radius: 6px;
-            background-color: $normal-green;
-            position: absolute;
-            right: 0%;
-            top: 0%;
-            overflow: hidden;
-            }
-        }
+       
     }
 
 }

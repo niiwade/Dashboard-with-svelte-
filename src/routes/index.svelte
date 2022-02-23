@@ -14,7 +14,14 @@
 						</span>
 					</a>
 				</li>
-				<li><a href="#"><img src="src/assests/app.svg" alt="" /></a></li>
+				<li>
+					<a href="#">
+						<img src="src/assests/app.svg" alt="" />
+						<span class="stroke">
+							<span class="half" />
+						</span>
+					</a>
+				</li>
 				<li><a href="#"><img src="src/assests/calendar.svg" alt="" /></a></li>
 				<li><a href="#"><img src="src/assests/folder.svg" alt="" /></a></li>
 				<li><a href="#"><img src="src/assests/messages.svg" alt="" /></a></li>
