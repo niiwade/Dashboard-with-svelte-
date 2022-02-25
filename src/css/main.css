@@ -73,21 +73,40 @@ body {
   padding: 2.5em 3em 0 3em;
   border-right: 2px solid #d4d4d4;
 }
-.wrap .content .main header .title {
+.wrap .content .main header .title h1 {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 2.55em;
   font-weight: 600;
   text-transform: capitalize;
   color: #541688;
-  line-height: 1.2em;
+  line-height: 1em;
 }
-.wrap .content .main header span {
+.wrap .content .main header .title span {
   font-family: "Kumbh Sans", sans-serif;
-  font-size: 0.4em;
+  font-size: 1em;
   font-weight: 500;
   display: block;
-  color: #fc6b18;
+  color: #505051;
   margin-top: 0.11em;
+}
+.wrap .content .main header .search-bar .group {
+  position: relative;
+}
+.wrap .content .main header .search-bar .group img {
+  height: 1.35em;
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.wrap .content .main header .search-bar .group input {
+  display: block;
+  padding: 14px 50px 14px 54px;
+  border-radius: 50px;
+  width: 100%;
+  outline: none;
+  background: linear-gradient(90deg, #787777);
 }
 
 /*# sourceMappingURL=main.css.map */
