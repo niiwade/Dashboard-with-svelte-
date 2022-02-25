@@ -70,11 +70,24 @@ body {
 }
 .wrap .content .main {
   height: 100vh;
-  background-color: #013179;
+  padding: 2.5em 3em 0 3em;
+  border-right: 2px solid #d4d4d4;
 }
-.wrap .content .profile {
-  height: 100vh;
-  background-color: aqua;
+.wrap .content .main header .title {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 2.55em;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #541688;
+  line-height: 1.2em;
+}
+.wrap .content .main header span {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.4em;
+  font-weight: 500;
+  display: block;
+  color: #fc6b18;
+  margin-top: 0.11em;
 }
 
 /*# sourceMappingURL=main.css.map */

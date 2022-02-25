@@ -33,7 +33,24 @@
 	<div class="content">
 		<div class="grid grid-cols-12">
 			<div class="col-span-12 xl:col-span-12 2xl:col-span-9">
-				<div class="main" />
+				<div class="main">
+					<header class="grid grid-cols-12">
+						<div class="col-span-12 2xl:col-span-8">
+							<div class="title">
+								<h1>Lucid Dashboard</h1>
+								<span>Luxury Redefined</span>
+							</div>
+						</div>
+						<div class="col-span-12 2xl:col-span-4">
+							<div class="search-bar">
+								<div class="group">
+									<img alt="" src="src/assests/search.svg" />
+									<input type="text" placeholder="Search" />
+								</div>
+							</div>
+						</div>
+					</header>
+				</div>
 			</div>
 			<div class="col-span-12 2xl:col-span-3">
 				<div class="profile" />

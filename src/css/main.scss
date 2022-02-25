@@ -102,12 +102,32 @@ body{
 
         .main{
             height: 100vh;
-            background-color: $dark-blue;
+           padding: 2.5em 3em 0 3em;
+           border-right: 2px solid $lighter-grey;
+
+           header{
+               .title{
+                font-family: $main-font;
+                font-size: 2.55em;
+                font-weight: 600;
+                text-transform: capitalize;
+                color: $secondary-text;
+                line-height: 1.2em;
+               }
+
+               span{
+                   font-family: $main-font;
+                   font-size: .4em;
+                   font-weight: 500;
+                   display: block;
+                   color: $primary-text;
+                   margin-top: .11em;
+               }
+           }
         }
 
         .profile{
-            height: 100vh ;
-            background-color: aqua;
+           
         }
     }
 
