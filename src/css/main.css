@@ -108,5 +108,18 @@ body {
   outline: none;
   background: linear-gradient(90deg, #b4cff7);
 }
+.wrap .content .main .dashboard-area {
+  margin-top: 3em;
+}
+.wrap .content .main .dashboard-area .productivity-listing .productivity-bar {
+  background-color: #349652;
+  padding: 0.95em;
+  color: #541688;
+  margin-bottom: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
 
 /*# sourceMappingURL=main.css.map */
