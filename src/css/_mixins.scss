@@ -5,3 +5,9 @@
 }
 
 
+@mixin setFlex($flexType,$justifyType, $alignType, $direction)  {
+    display: $flexType;
+    align-items: $alignType;
+    justify-content: $justifyType;
+    flex-direction:$direction;
+}

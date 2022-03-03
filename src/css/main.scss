@@ -161,10 +161,10 @@ body{
                        padding: .95em;
                        color: $secondary-text;
                        margin-bottom: 1.2em;
-                       display: flex;
-                       align-items: center;
-                       justify-content: space-between;
-                       flex-direction:row ;
+                       @include setFlex(flex, space-between, center, row) ;
+                       box-sizing: border-box;
+                       border-radius: 1em;
+                       box-shadow: 0 6px 10px rgb(1 86 91 / 5%);
                    }
                }
            }

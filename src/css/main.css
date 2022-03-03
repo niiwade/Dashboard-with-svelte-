@@ -120,6 +120,9 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  box-sizing: border-box;
+  border-radius: 1em;
+  box-shadow: 0 6px 10px rgba(1, 86, 91, 0.05);
 }
 
 /*# sourceMappingURL=main.css.map */
