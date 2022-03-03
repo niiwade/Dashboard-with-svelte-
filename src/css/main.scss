@@ -167,7 +167,7 @@ body{
                        box-shadow: 0 6px 10px rgb(1 86 91 / 5%);
                    }
                    .percent-area{
-                    @include setFlex(flex, start, center, row);
+                    @include setFlex(flex, flex-start, center, row);
                     width: 50%;
                     .date-tag{
                         @include setFlex(flex, initial, center, column);
@@ -176,6 +176,8 @@ body{
                         box-sizing: border-box;
                         border-radius: .7em;
                         margin-right: 2.5em;
+                        position: relative; 
+                        box-shadow: 4px 6px 10px rgb(1 86 91 / 5%);
                     }
                    }
                }
