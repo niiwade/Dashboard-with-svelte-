@@ -124,5 +124,23 @@ body {
   border-radius: 1em;
   box-shadow: 0 6px 10px rgba(1, 86, 91, 0.05);
 }
+.wrap .content .main .dashboard-area .productivity-listing .percent-area {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  width: 50%;
+}
+.wrap .content .main .dashboard-area .productivity-listing .percent-area .date-tag {
+  display: flex;
+  align-items: center;
+  justify-content: initial;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 0.6m 1.25em;
+  box-sizing: border-box;
+  border-radius: 0.7em;
+  margin-right: 2.5em;
+}
 
 /*# sourceMappingURL=main.css.map */
