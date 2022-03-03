@@ -35,13 +35,13 @@
 			<div class="col-span-12 xl:col-span-12 2xl:col-span-9">
 				<div class="main">
 					<header class="grid grid-cols-12">
-						<div class="col-span-12 2xl:col-span-8">
+						<div class="col-span-12 xl:col-span-8 2xl:col-span-8">
 							<div class="title">
 								<h1>Lucid Dashboard</h1>
 								<span>Luxury Redefined</span>
 							</div>
 						</div>
-						<div class="col-span-12 2xl:col-span-4">
+						<div class="col-span-12 xl-col-span-4 2xl:col-span-4">
 							<div class="search-bar">
 								<div class="group">
 									<img alt="" src="src/assests/search.svg" />
@@ -50,6 +50,29 @@
 							</div>
 						</div>
 					</header>
+
+					<div class="dashboard-area">
+						<div class="grid-grid-cols-12 gap-10">
+							<div class="col-span-12 xl:col-span-8 2xl:col-span-8">
+								<div class="productivity-listing">
+									<div class="productivity-bar">
+										<div class="percent-area">
+											<div class="date-tag">
+												<span class="day"> Mon </span>
+												<span class="date"> 18 </span>
+											</div>
+											<div class="fancy-chart">
+												<span class="chart_title"> Productive </span>
+												<div class="chart" />
+											</div>
+										</div>
+										<div class="time-area" />
+									</div>
+								</div>
+							</div>
+							<div class="col-span-12 xl:col-span-4 2xl:col-span-4" />
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="col-span-12 2xl:col-span-3">

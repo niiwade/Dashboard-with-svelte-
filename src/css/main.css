@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: #06080ae7;
+  background-color: #e8e6e6;
   font-family: "Kumbh Sans", sans-serif;
 }
 
@@ -96,7 +96,7 @@ body {
   height: 1.35em;
   display: inline-block;
   position: absolute;
-  left: 10px;
+  left: 20px;
   top: 50%;
   transform: translate(0, -50%);
 }
@@ -106,7 +106,7 @@ body {
   border-radius: 50px;
   width: 100%;
   outline: none;
-  background: linear-gradient(90deg, #787777);
+  background: linear-gradient(90deg, #b4cff7);
 }
 
 /*# sourceMappingURL=main.css.map */

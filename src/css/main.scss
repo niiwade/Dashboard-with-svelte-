@@ -7,7 +7,7 @@ html{
 }
 
 body{
-    background-color: $background-black;
+    background-color: $background-white;
     font-family: $main-font;
 }
 
@@ -134,7 +134,7 @@ body{
                         height: 1.35em;
                         display: inline-block;
                         position: absolute;
-                        left: 10px;
+                        left: 20px;
                         top:50% ;
                         transform: translate(0, -50%);
                        }
@@ -145,7 +145,7 @@ body{
                         border-radius: 50px;
                         width: 100%;
                         outline: none;
-                        background: linear-gradient(90deg, rgb(120, 119, 119));
+                        background: linear-gradient(90deg, #b4cff7);
                        }
                    }
                }
