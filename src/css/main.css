@@ -171,6 +171,38 @@ body {
   top: 50%;
   right: -18px;
   border-radius: 4px;
+  transform: translate(0, -50%) rotate(45deg) skew(24deg, 24deg);
+}
+.wrap .content .main .dashboard-area .productivity-listing .percent-area .fancy-chart .chart-title {
+  text-transform: capitalize;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.875em;
+  font-weight: 600;
+}
+.wrap .content .main .dashboard-area .productivity-listing .percent-area .fancy-chart .chart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+  top: 0.7em;
+}
+.wrap .content .main .dashboard-area .productivity-listing .percent-area .fancy-chart .chart svg {
+  height: 1em;
+  width: 5.6em;
+}
+.wrap .content .main .dashboard-area .productivity-listing .percent-area .fancy-chart .chart .percent-count {
+  display: block;
+  position: relative;
+  left: 1em;
+  bottom: 0.5em;
+  background-color: #e8e6e6;
+  padding: 3px 9px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #541688;
 }
 
 /*# sourceMappingURL=main.css.map */

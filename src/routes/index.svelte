@@ -62,7 +62,7 @@
 												<span class="date"> 18 </span>
 											</div>
 											<div class="fancy-chart">
-												<span class="chart_title"> Productive </span>
+												<span class="chart-title"> Productive </span>
 												<div class="chart">
 													<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
 														<path
