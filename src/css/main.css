@@ -124,6 +124,14 @@ body {
   border-radius: 1em;
   box-shadow: 0 6px 10px rgba(1, 86, 91, 0.05);
 }
+.wrap .content .main .dashboard-area .productivity-listing .productivity-bar:nth-child(2) {
+  background-color: #0ec25fcc;
+  color: #e8e6e6;
+}
+.wrap .content .main .dashboard-area .productivity-listing .productivity-bar:nth-child(3) {
+  background-color: #013179;
+  color: #e8e6e6;
+}
 .wrap .content .main .dashboard-area .productivity-listing .percent-area {
   display: flex;
   align-items: center;
@@ -226,6 +234,16 @@ body {
   font-size: 1.125em;
   font-weight: 700;
   display: block;
+}
+.wrap .content .main .dashboard-area .productivity-listing .time-area::before {
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 1px;
+  top: 50%;
+  display: block;
+  transform: translate(0, -50%);
+  background-color: #0ec25fcc;
 }
 
 /*# sourceMappingURL=main.css.map */

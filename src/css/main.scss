@@ -165,6 +165,23 @@ body{
                        box-sizing: border-box;
                        border-radius: 1em;
                        box-shadow: 0 6px 10px rgb(1 86 91 / 5%);
+
+
+                       &:nth-child(2){
+                        background-color: $normal-green;
+                        color: $background-white;
+
+                        .chart{
+                            svg{
+                                
+                            }
+                        }
+                       }
+
+                       &:nth-child(3){
+                           background-color: $dark-blue;
+                           color: $background-white;
+                       }
                    }
                    .percent-area{
                     @include setFlex(flex, flex-start, center, row);
@@ -268,7 +285,7 @@ body{
                        }
 
                        .grp{
-                           .title{
+                           .title{ 
 
                            }
 
@@ -276,6 +293,19 @@ body{
 
                            }
                        }
+
+
+                       &::before{
+                           content: "";
+                           position:absolute;
+                           height: 50%;
+                           width: 1px;
+                           top: 50%;
+                           display: block;
+                           transform: translate(0, -50%);
+                           background-color: $normal-green ;
+                       }
+
                    }
                }
            }
