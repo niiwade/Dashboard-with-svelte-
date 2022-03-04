@@ -172,12 +172,43 @@ body{
                     .date-tag{
                         @include setFlex(flex, initial, center, column);
                         background-color: #fff;
-                        padding: .6m 1.25em;
+                        padding: .6em 1.25em;
                         box-sizing: border-box;
-                        border-radius: .7em;
+                        border-radius: .6em;
                         margin-right: 2.5em;
                         position: relative; 
-                        box-shadow: 4px 6px 10px rgb(1 86 91 / 5%);
+                        box-shadow: 4px 6px 10px rgba(0,0,0, 0.2);
+
+                        .date , .day{
+                            display: block;
+                            position: relative;
+                            z-index: 99;
+                        }
+
+                        .date{
+                            text-transform: capitalize;
+                            font-size: 2em;
+                            font-weight: 600;
+                            color: $primary-text;
+                        }
+                        .day{
+                            text-transform: capitalize;
+                            font-size: .875em;
+                            font-weight: 500;
+                            color: $primary-text;
+                        }
+
+                        &::after{
+                            content: "";
+                            height: 40px;
+                            width: 40px;
+                            display: block;
+                            background-color:#fff;
+                            position: absolute;
+                            top: 50%;
+                            right: -18px;
+                            border-radius: 4px;
+                        }
                     }
                    }
                }

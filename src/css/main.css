@@ -137,12 +137,40 @@ body {
   justify-content: initial;
   flex-direction: column;
   background-color: #fff;
-  padding: 0.6m 1.25em;
+  padding: 0.6em 1.25em;
   box-sizing: border-box;
-  border-radius: 0.7em;
+  border-radius: 0.6em;
   margin-right: 2.5em;
   position: relative;
-  box-shadow: 4px 6px 10px rgba(1, 86, 91, 0.05);
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
+}
+.wrap .content .main .dashboard-area .productivity-listing .percent-area .date-tag .date, .wrap .content .main .dashboard-area .productivity-listing .percent-area .date-tag .day {
+  display: block;
+  position: relative;
+  z-index: 99;
+}
+.wrap .content .main .dashboard-area .productivity-listing .percent-area .date-tag .date {
+  text-transform: capitalize;
+  font-size: 2em;
+  font-weight: 600;
+  color: #fc6b18;
+}
+.wrap .content .main .dashboard-area .productivity-listing .percent-area .date-tag .day {
+  text-transform: capitalize;
+  font-size: 0.875em;
+  font-weight: 500;
+  color: #fc6b18;
+}
+.wrap .content .main .dashboard-area .productivity-listing .percent-area .date-tag::after {
+  content: "";
+  height: 40px;
+  width: 40px;
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: -18px;
+  border-radius: 4px;
 }
 
 /*# sourceMappingURL=main.css.map */
