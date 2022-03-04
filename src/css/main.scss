@@ -257,11 +257,13 @@ body{
 
                         margin-left: 2em;
                            .title{
-
+                            @include setFont($main-font, .875em, 600);
+                            display: block;
                            }
 
                            .time{
-
+                            @include setFont($main-font, 1.125em, 700);
+                            display: block;
                            }
                        }
 

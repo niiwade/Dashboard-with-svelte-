@@ -215,5 +215,17 @@ body {
 .wrap .content .main .dashboard-area .productivity-listing .time-area .grp {
   margin-left: 2em;
 }
+.wrap .content .main .dashboard-area .productivity-listing .time-area .grp .title {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.875em;
+  font-weight: 600;
+  display: block;
+}
+.wrap .content .main .dashboard-area .productivity-listing .time-area .grp .time {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.125em;
+  font-weight: 700;
+  display: block;
+}
 
 /*# sourceMappingURL=main.css.map */
