@@ -168,37 +168,14 @@ body{
 
 
                        &:nth-child(2){
-                        background-color: $normal-green;
-                        color: $background-white;
 
-                        .chart{
-                            svg{
-                              transform: scale(-1, 1);
-                            }
+                        @include setProbarChild($normal-green, $background-white, scale(-1, 1), #fff); 
 
-                            .time-area{
-                                &::before{
-                                    background-color: #fff;
-                                }
-                            }
-                        }
                        }
 
                        &:nth-child(3){
-                           background-color: $dark-blue;
-                           color: $background-white;
-                           
-                           .chart{
-                            svg{
-                              transform: scale(-1.5, 1);
-                            }
 
-                            .time-area{
-                                &::before{
-                                    background-color: #fff;
-                                }
-                            }
-                        }
+                        @include  setProbarChild($dark-blue, $background-white,scale(-1.5, 1) , #fff);
 
 
 

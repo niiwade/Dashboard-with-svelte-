@@ -11,3 +11,21 @@
     justify-content: $justifyType;
     flex-direction:$direction;
 }
+
+
+@mixin  setProbarChild($bgVal, $colorVal, $chartTrans, $timeBg){
+                    background-color: $bgVal;
+                    color: $colorVal;
+
+                        .chart{
+                            svg{
+                              transform: $chartTrans;
+                            }
+
+                            .time-area{
+                                &::before{
+                                    background-color: $timeBg;
+                                }
+                            }
+                        }
+}
