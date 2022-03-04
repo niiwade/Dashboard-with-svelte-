@@ -75,7 +75,16 @@
 												</div>
 											</div>
 										</div>
-										<div class="time-area" />
+										<div class="time-area">
+											<div class="grp">
+												<span class="title">Productive Time</span>
+												<span class="time">5hr 12mins</span>
+											</div>
+											<div class="grp">
+												<span class="title">Time At Work</span>
+												<span class="time">4hr 2mins</span>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>

@@ -240,12 +240,40 @@ body{
                                     border-radius: 20px;
                                     font-size: .85em ;
                                     font-weight: 600;
-                                    color: $secondary-text;
+                                    color: $secondary-text ;
                                 }
 
                             }
                         
                     }
+                   }
+
+                   .time-area{
+
+                    @include setFlex (flex, flex-start, flex-start,initial);
+                    width: 50%;
+                    position: relative;
+                       .grp{
+
+                        margin-left: 2em;
+                           .title{
+
+                           }
+
+                           .time{
+
+                           }
+                       }
+
+                       .grp{
+                           .title{
+
+                           }
+
+                           .time{
+
+                           }
+                       }
                    }
                }
            }

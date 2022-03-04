@@ -204,5 +204,16 @@ body {
   font-weight: 600;
   color: #541688;
 }
+.wrap .content .main .dashboard-area .productivity-listing .time-area {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: initial;
+  width: 50%;
+  position: relative;
+}
+.wrap .content .main .dashboard-area .productivity-listing .time-area .grp {
+  margin-left: 2em;
+}
 
 /*# sourceMappingURL=main.css.map */
