@@ -128,9 +128,21 @@ body {
   background-color: #0ec25fcc;
   color: #e8e6e6;
 }
+.wrap .content .main .dashboard-area .productivity-listing .productivity-bar:nth-child(2) .chart svg {
+  transform: scale(-1, 1);
+}
+.wrap .content .main .dashboard-area .productivity-listing .productivity-bar:nth-child(2) .chart .time-area::before {
+  background-color: #fff;
+}
 .wrap .content .main .dashboard-area .productivity-listing .productivity-bar:nth-child(3) {
   background-color: #013179;
   color: #e8e6e6;
+}
+.wrap .content .main .dashboard-area .productivity-listing .productivity-bar:nth-child(3) .chart svg {
+  transform: scale(-1.5, 1);
+}
+.wrap .content .main .dashboard-area .productivity-listing .productivity-bar:nth-child(3) .chart .time-area::before {
+  background-color: #fff;
 }
 .wrap .content .main .dashboard-area .productivity-listing .percent-area {
   display: flex;
