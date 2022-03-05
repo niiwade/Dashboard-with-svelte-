@@ -257,5 +257,28 @@ body {
   transform: translate(0, -50%);
   background-color: #0ec25fcc;
 }
+.wrap .content .main .dashboard-area .productivity-listing .h-title {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.75em;
+  font-weight: 600;
+  color: #541688;
+  text-align: center;
+}
+.wrap .content .main .dashboard-area .productivity-listing .monthly-stats .stats-chart {
+  height: 10.5em;
+  width: 10.5em;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.65em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: initial;
+}
+.wrap .content .main .dashboard-area .productivity-listing .monthly-stats .stats-chart svg {
+  fill: none;
+  stroke: #013179;
+}
 
 /*# sourceMappingURL=main.css.map */

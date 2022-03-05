@@ -150,7 +150,29 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-span-12 xl:col-span-4 2xl:col-span-4" />
+							<div class="col-span-12 xl:col-span-4 2xl:col-span-4">
+								<div class="monthly-stats">
+									<h1 class="h-title">Stats on May</h1>
+									<div class="stats-chart">
+										<svg viewBox="0 0 36 36">
+											<path
+												d="M18 2.0845 
+											a 15.9155 15.9155 0 0 1 0 31.831
+											a 15.9155 15.9155 0 0 1 0 -31.831"
+											/>
+										</svg>
+										<!-- <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+											<circle cx="10" cy="10" r="10" />
+										</svg>
+										<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+											<circle cx="10" cy="10" r="10" />
+										</svg>
+										<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+											<circle cx="10" cy="10" r="10" />
+										</svg> -->
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

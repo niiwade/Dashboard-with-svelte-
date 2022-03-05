@@ -305,6 +305,29 @@ body{
                        }
 
                    }
+
+                   .h-title{
+                    @include setFont($main-font, 1.75em, 600);
+                    color: $secondary-text;
+                    text-align: center;
+                }
+
+                   .monthly-stats{
+                      .stats-chart{
+                          height: 10.5em;
+                          width: 10.5em;
+                          margin: 0 auto;
+                          margin-top: 1.5em;
+                          margin-bottom: 1.65em;
+                          position: relative;
+                        @include setFlex(flex, center, center, initial);
+
+                        svg {
+                            fill:none;
+                            stroke: $dark-blue;
+                        }
+                      }
+                   }
                }
            }
         }
