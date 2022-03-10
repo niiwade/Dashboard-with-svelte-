@@ -307,7 +307,7 @@ body{
                    }
 
                    .h-title{
-                    @include setFont($main-font, 1.75em, 600);
+                    @include setFont($main-font, 1.75em, 500);
                     color: $secondary-text;
                     text-align: center;
                 }
